@@ -1,0 +1,47 @@
+
+<html>
+<head>
+    <title>WeatherApp</title>
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Droid+Sans">
+<link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+    <body>
+        
+    
+
+
+
+
+<div class="wrapper">
+  <div class="weather">
+    <div class="city"><h1><%=data.name%> | <%=data.sys.country%></h1></div>
+          <div class="clearfix"></div>
+
+    <div class="cont">
+      <div class="icon">
+        <i class="fa fa-sun-o spin glow"></i>
+        <i class="fa fa-cloud wind"></i>
+        <i class="fa fa-cloud two"></i>
+      </div>
+      <div class="temp">
+        <div class="current">
+          <%=tempe%>&deg;
+        </div>
+        <div class="high">
+          High: <%=max%>&deg;
+        </div>
+        <div class="low">
+          Low: <%=min%>&deg;
+        </div>
+      </div>
+      <div class="clearfix"></div>
+     
+      <div class="date"><p id="dt"><%=weekday%> , <%=day%>/<%=month%>/<%=year%></p></div>
+     
+    </div>
+  </div> <!-- weather -->
+</div> <!-- wrapper -->
+</body>
+</html>

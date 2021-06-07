@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background: url('/images/thunder.png') no-repeat center center/cover;
+}
+h1{
+    color: white;
+    font-weight: 600;
+}
+.title{
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 41%;
+    transform: translate(-37%,-41%);
+  
+}
+form{
+    margin-top: 20%;
+    padding: 0px 20px;
+    margin-left: 20%;
+}
+input{
+    border-radius: 8px;
+    font-size: 25px;
+    width: 560px;
+    padding: 20px 10px;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 9px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
