@@ -14,7 +14,7 @@ app.use(express.static('public'));
 app.get('/weather',(req,res)=>{
     res.render('home');
 });
-app.get('/searchweather',(req,res)=>{
+app.get('/n',(req,res)=>{
     res.render('search')
 });
 app.get('/results',(req,res)=>{
